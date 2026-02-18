@@ -29,7 +29,7 @@ The system is designed to achieve:
 
 ## 1️⃣ On-Premises Primary Environment
 
-### Network Segmentation (VPC-based)
+### Network Segmentation (VLAN&VPC-based)
 - DMZ Network
 - Kubernetes Cluster Network
 - Database Network
