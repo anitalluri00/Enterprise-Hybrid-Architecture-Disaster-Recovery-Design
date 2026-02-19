@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project defines a Hybrid Enterprise Architecture integrating:
 
@@ -25,7 +25,7 @@ The system is designed to achieve:
 
 ---
 
-# 🏗 Architecture Components
+# Architecture Components
 
 ## 1️⃣ On-Premises Primary Environment
 
@@ -93,7 +93,7 @@ Failover is handled via:
 
 ---
 
-# 🌐 Traffic Flow
+# Traffic Flow
 
 Users → Route53 → WAF → ALB → EKS → RDS / S3 / ElastiCache
 
@@ -103,7 +103,7 @@ Backup Path: VPN
 
 ---
 
-# 🔁 High Availability Design
+# High Availability Design
 
 ## Multi-AZ Strategy (Primary Region)
 
@@ -123,7 +123,7 @@ Backup Path: VPN
 
 ---
 
-# 🔄 Disaster Recovery Strategy
+# Disaster Recovery Strategy
 
 ## Replication Strategy
 
@@ -144,7 +144,7 @@ Backup Path: VPN
 
 ---
 
-# 🔐 Security Architecture
+# Security Architecture
 
 ## Identity & Access
 
@@ -168,7 +168,7 @@ Backup Path: VPN
 
 ---
 
-# 📊 Monitoring & Observability
+# Monitoring & Observability
 
 ## Monitoring Stack
 
@@ -179,13 +179,13 @@ Backup Path: VPN
 
 ---
 
-# 🚀 CI/CD Pipeline
+# CI/CD Pipeline
 
 Code Scan → Jenkins → Docker Build → Push to ECR → Deploy via IaC → Kubernetes Rolling Update
 
 ---
 
-# 🔗 Hybrid Connectivity
+# Hybrid Connectivity
 
 ## Primary Link
 - AWS Direct Connect
@@ -195,7 +195,7 @@ Code Scan → Jenkins → Docker Build → Push to ECR → Deploy via IaC → Ku
 
 ---
 
-# 💾 Backup Strategy
+# Backup Strategy
 
 - RDS Automated Backups
 - RDS Snapshots
@@ -204,7 +204,7 @@ Code Scan → Jenkins → Docker Build → Push to ECR → Deploy via IaC → Ku
 
 ---
 
-# 📘 Conclusion
+# Conclusion
 
 This hybrid architecture provides:
 
